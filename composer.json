@@ -1,0 +1,36 @@
+{
+    "name": "bhavinjr/laravel-ekomi",
+    "description": "Ekomi laravel package",
+    "keywords": [
+        "laravel", "laravel ekomi", "ekomi","ekomi laravel", "ekomi feedback", "ekomi rating", "ekomi review", "ekomi"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhavin Rudani",
+            "email": "bhavinrudani94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bhavinjr\\Ekomi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bhavinjr\\Ekomi\\Providers\\EkomiServiceProvider"
+            ],
+            "aliases": {
+                "Ekomi": "Bhavinjr\\Ekomi\\Facades\\Ekomi"
+            }
+        }
+    }
+}
