@@ -21,12 +21,13 @@ class PutOrder extends RequestPayload
 	protected $productIds;
 
 	/**
-	 * @var string
+	 * @var [string]
 	 */
 	protected $productIdsUpdateMethod;
 
 	/**
-	 * @var [date as (YYYY-MM-DD HH:MM:SS)]
+	 * [$orderTimestamp date as (YYYY-MM-DD)]
+	 * @var [string]
 	 */
 	protected $orderTimestamp;
 

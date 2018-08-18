@@ -28,7 +28,7 @@ class GetFeedback extends RequestPayload
 
 	/**
 	 * [$fields allows you to specify which columns should be returned]
-	 * @var [type]
+	 * @var string
 	 */
 	protected $fields = 'date,order_id,rating,feedback,comment';
 

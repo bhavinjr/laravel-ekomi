@@ -14,7 +14,7 @@ class PutProduct extends RequestPayload
 	protected $productId;
 
 	/**
-	 * @var string
+	 * @var [string]
 	 */
 	protected $productName;
 

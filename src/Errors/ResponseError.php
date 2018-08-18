@@ -18,7 +18,8 @@ class ResponseError
     		'Access denied' => 'Invalid authorization value',
     		
     		// putOrder
-    		'Invalid date' 	=> 'Given ordertimestamp date is invalid',
+            'Invalid date'  => 'Given ordertimestamp date is invalid',
+    		'Invalid date. Expected: YYYY-MM-DD' 	=> 'Invalid date. Expected: YYYY-MM-DD',
     		'Something in your request was wrong.'	=> 'Something in your request was wrong.',
 
     		// putComment

@@ -14,6 +14,7 @@ class PutComment extends RequestPayload
 	protected $orderId;
 
 	/**
+	 * [$comment urlencoded string]
 	 * @var [string]
 	 */
 	protected $comment;

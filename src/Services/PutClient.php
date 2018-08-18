@@ -54,12 +54,14 @@ class PutClient extends RequestPayload
 	protected $zip;
 
 	/**
-	 * @var [string {m,f,t}]
+	 * [$gender {m,f,t]
+	 * @var [string]
 	 */
 	protected $gender;
 
 	/**
-	 * @var [date as (YYYY-MM-DD)]
+	 * [$birthdate YYYY-MM-DD]
+	 * @var [date]
 	 */
 	protected $birthdate;
 

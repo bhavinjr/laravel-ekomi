@@ -9,12 +9,12 @@ class AssignClientOrder extends RequestPayload
 	const BASE_NAME = 'assignClientOrder';
 
 	/**
-	 * @var mixed
+	 * @var [mixed]
 	 */
 	protected $orderId;
 
 	/**
-	 * @var mixed
+	 * @var [mixed]
 	 */
 	protected $clientId;
 

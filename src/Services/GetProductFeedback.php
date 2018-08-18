@@ -10,7 +10,7 @@ class GetProductFeedback extends RequestPayload
 
 	/**
 	 * [$product as a product id]
-	 * @var string
+	 * @var [string]
 	 */
 	protected $product;
 
