@@ -120,8 +120,8 @@ setLocale, setScreenName, setFirstName, setLastName, setCountry, setCity, setZip
 ```php
 $assignOrder = new AssignClientOrder();
 $assignOrder->setOrderId(1)
-          	->setClientId(1)
-          	->setUnlink(false); //true if want to removes the order_id assignment
+            ->setClientId(1)
+            ->setUnlink(false); //true if want to removes the order_id assignment
 
 Ekomi::create($assignOrder);
 ```
@@ -140,8 +140,8 @@ Ekomi::create($getAverage);
 ```php
 $getDialog = new GetDialog();
 $getDialog->setContent('process_only') //optional
-		  ->setRange('all') //optional
-		  ->setFilter('all'); //optional
+	  ->setRange('all') //optional
+	  ->setFilter('all'); //optional
 
 Ekomi::create($getDialog);
 ```
@@ -151,7 +151,7 @@ Ekomi::create($getDialog);
 ```php
 $getFeedback = new GetFeedback();
 $getFeedback->setCaching('verylong') //optional available none, short, middle, long, verylong
-		  	->fields('date,order_id'); //optional
+	    ->fields('date,order_id'); //optional
 		  	
 Ekomi::create($getFeedback);
 
@@ -164,7 +164,7 @@ setFilter, setRange
 ```php
 $getFeedback = new GetFeedback();
 $getFeedback->setCaching('verylong') //optional available none, short, middle, long, verylong
-		  	->fields('date,order_id'); //optional
+	    ->fields('date,order_id'); //optional
 		  	
 Ekomi::create($getFeedback);
 
