@@ -159,18 +159,6 @@ also check other optional properties:
 setFilter, setRange
 ```
 
-### GetFeedback
-
-```php
-$getFeedback = new GetFeedback();
-$getFeedback->setCaching('verylong') //optional available none, short, middle, long, verylong
-	    ->fields('date,order_id'); //optional
-		  	
-Ekomi::create($getFeedback);
-
-also check other optional properties: 
-setFilter, setRange
-```
 
 Also other methods is available 
 ```
